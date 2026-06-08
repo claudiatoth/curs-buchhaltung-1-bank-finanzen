@@ -9,7 +9,7 @@ function normalizeAnswer(str) {
         .replace(/[ăâ]/g, 'a').replace(/î/g, 'i').replace(/[șş]/g, 's').replace(/[țţ]/g, 't')
         .replace(/…/g, '...').replace(/\s*\.\.\.\s*/g, ' ')
         .replace(/\s*\/\s*/g, ' ').replace(/\s*,\s*/g, ' ')
-        .replace(/\s+/g, ' ').replace(/[.!?;:]/g, '');
+        .replace(/\s+/g, ' ').replace(/[.!?;:]/g, '').trim();
 }
 function shuffleArr(arr) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function checkTextItems(items, prefix) {
