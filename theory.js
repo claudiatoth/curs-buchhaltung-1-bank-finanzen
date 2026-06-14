@@ -24,7 +24,7 @@ const theoryHTML = `
                 <img class="andreea-note-avatar" src="images/andreea.png" alt="Andreea">
                 <div class="andreea-note-content">
                     <div class="speaker">Andreea</div>
-                    <div class="text">Prima lecție din seria <strong>Deutsch für Buchhaltung & Finanzen</strong>! Învățăm vocabularul de care ai nevoie la bancă și în orice discuție despre bani: cont, transfer, card, dobândă, chitanță. La final ascultăm un dialog real — eu deschid un cont la bancă cu domnul Keller.</div>
+                    <div class="text">Azi învățăm vocabularul de care ai nevoie la bancă și în orice discuție despre bani: cont, transfer, card, dobândă, chitanță. La final ascultăm un dialog real — eu deschid un cont la bancă cu domnul Keller.</div>
                 </div>
             </div>
 
